@@ -1,0 +1,16 @@
+# Carpetas y archivos de Maven
+/target/
+*.log
+
+# Archivos de IntelliJ
+/.idea/
+*.iml
+*.iws
+*.ipr
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración generados
+*.class

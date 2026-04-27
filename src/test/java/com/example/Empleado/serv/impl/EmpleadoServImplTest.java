@@ -1,0 +1,62 @@
+package com.example.Empleado.serv.impl;
+
+import com.example.empleado.dto.response.EmpleadoResponse;
+import com.example.empleado.entity.Empleado;
+import com.example.empleado.mapper.EmpleadoMapper;
+import com.example.empleado.repository.EmpaledoRepository;
+import com.example.empleado.serv.EmpleadoServ;
+import com.example.empleado.serv.impl.EmpleadoServImpl;
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class EmpleadoServImplTest {
+
+    @InjectMocks
+    private EmpleadoServImpl empleadoServImpl;
+    @Mock
+    private EmpleadoServ empleadoServ;
+    private List<EmpleadoResponse> empleados = new ArrayList<>();
+
+
+    private EmpaledoRepository empaledoRepository;
+    private EmpleadoMapper empleadoMapper;
+  /*  @Test
+    void empledosFindAll() throws Exception {
+        Mockito.when(this.empaledoRepository.findAll())
+                .thenReturn();
+        this.empleados = this.empleadoServ.empledosFindAll();
+        assertNotNull(empleados);*/
+
+
+
+    @Test
+    void inserEmpleado() {
+    }
+
+    @Test
+    void findById() {
+    }
+
+    @Test
+    void findByNombre() {
+    }
+
+    @Test
+    void findByApellido() {
+    }
+
+    @Test
+    void daleteEmpleado() {
+    }
+
+    @Test
+    void updateEmpleado() {
+    }
+}
